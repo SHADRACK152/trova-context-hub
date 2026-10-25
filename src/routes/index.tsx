@@ -59,7 +59,7 @@ function LogoMark() {
 
 function Hero() {
   return (
-    <section className="relative rounded-[36px] bg-white p-8 shadow-sm md:p-12">
+    <section className="relative rounded-[36px] bg-white p-8 pb-8 pt-10 shadow-sm md:p-12 md:pb-12 md:pt-16">
       {/* Top navigation bar */}
       <header className="relative z-10 flex flex-wrap items-center justify-between gap-4">
         <a href="/" className="flex items-center gap-2.5">
