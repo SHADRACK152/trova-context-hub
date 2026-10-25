@@ -92,7 +92,7 @@ function Hero() {
       </header>
 
       {/* Hero body */}
-      <div className="relative mt-10 grid items-center gap-10 pb-32 md:mt-14 md:grid-cols-[1.05fr_0.95fr] md:pb-24">
+      <div className="relative mt-10 grid items-center gap-10 pb-40 md:mt-14 md:grid-cols-[1.05fr_0.95fr] md:pb-44">
         <div className="relative z-10">
           <p className="text-sm font-semibold tracking-wide text-[#f97316]">
             #No.1 Developer Context Platform
