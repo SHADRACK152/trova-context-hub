@@ -119,7 +119,7 @@ function Hero() {
             alt="Abstract 3D structure of connected code context nodes"
             width={1024}
             height={1024}
-            className="pointer-events-none absolute -top-20 right-0 z-0 w-[420px] max-w-none drop-shadow-xl md:-top-44 md:-right-8 md:w-[560px]"
+            className="pointer-events-none absolute -top-20 right-0 z-0 w-[400px] max-w-none drop-shadow-xl md:-top-44 md:-right-10 md:w-[530px]"
           />
           {/* Floating lightning badge */}
           <div className="absolute right-10 top-6 grid h-14 w-14 place-items-center rounded-full bg-[#f97316] shadow-lg shadow-orange-500/40 md:right-16 md:top-10">
