@@ -92,7 +92,7 @@ function Hero() {
       </header>
 
       {/* Hero body */}
-      <div className="relative mt-10 grid items-center gap-10 md:mt-14 md:grid-cols-[1.05fr_0.95fr]">
+      <div className="relative mt-10 grid items-center gap-10 pb-32 md:mt-14 md:grid-cols-[1.05fr_0.95fr] md:pb-24">
         <div className="relative z-10">
           <p className="text-sm font-semibold tracking-wide text-[#f97316]">
             #No.1 Developer Context Platform
@@ -119,7 +119,7 @@ function Hero() {
             alt="Abstract 3D structure of connected code context nodes"
             width={1024}
             height={1024}
-            className="pointer-events-none absolute -right-16 -top-40 w-[560px] max-w-none drop-shadow-xl md:-right-24 md:-top-56 md:w-[680px]"
+            className="pointer-events-none absolute -top-24 right-0 z-0 w-[420px] max-w-none drop-shadow-xl md:-top-36 md:-right-8 md:w-[560px]"
           />
           {/* Floating lightning badge */}
           <div className="absolute right-10 top-6 grid h-14 w-14 place-items-center rounded-full bg-[#f97316] shadow-lg shadow-orange-500/40 md:right-16 md:top-10">
@@ -128,7 +128,7 @@ function Hero() {
         </div>
 
         {/* Floating sub-cards overlay — bottom left */}
-        <div className="pointer-events-none absolute bottom-0 left-0 z-20 md:bottom-6 md:left-10">
+        <div className="pointer-events-none absolute bottom-2 left-2 z-20 md:bottom-4 md:left-4">
           <div className="flex w-max items-center gap-3 rounded-2xl border border-slate-100 bg-white/90 p-3 shadow-lg backdrop-blur">
             <div className="grid h-10 w-10 place-items-center rounded-xl bg-orange-100">
               <Boxes className="h-5 w-5 text-[#ea580c]" />
